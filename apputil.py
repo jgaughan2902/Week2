@@ -13,7 +13,6 @@ def lowest_score(names, scores):
 
 
 def sort_names(names, scores):
-    sortedInd = np.argsort(scores)[::-1]
+    sortedInd = np.argsort(-scores)
     sortedNames = names[sortedInd]
-    return sorted_names
-
+    return sortedNames
