@@ -12,8 +12,8 @@ def lowest_score(names, scores):
     return lowScoreStu
 
 
-#def sort_names(names, scores):
-#    highScoreInd = np.argmax(scores)
-#    highScoreStu = names[highScoreInd]
-#    return highScoreStu
+def sort_names(names, scores):
+    sortedInd = np.argsort(scores)[::-1]
+    sortedNames = names[sortedInd]
+    return sorted_names
 
