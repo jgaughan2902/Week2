@@ -9,11 +9,11 @@ import numpy as np
 def lowest_score(names, scores):
     lowScoreInd = np.argmin(scores)
     lowScoreStu = names[lowScoreInd]
-    return str(lowScoreStu)
+    return lowScoreStu
 
 
-def sort_names(names, scores):
-    highScoreInd = np.argmax(scores)
-    highScoreStu = names[highScoreInd]
-    return str(highScoreStu)
+#def sort_names(names, scores):
+#    highScoreInd = np.argmax(scores)
+#    highScoreStu = names[highScoreInd]
+#    return highScoreStu
 
